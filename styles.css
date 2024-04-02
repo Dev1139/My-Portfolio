@@ -1,0 +1,279 @@
+/* Navbar styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-heading {
+    padding: 0 0 0 25px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+    /* Change to desired hover color */
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Home section styles */
+.home-section {
+    background-color: #f5f5f5;
+    text-align: center;
+    color: #333;
+}
+
+.home-content {
+    padding: 100px 0;
+}
+
+.home-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+/* About section styles */
+.about-section {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.about-content {
+    padding: 100px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-heading {
+    /* font-size: 18px; */
+    line-height: 0.5;
+    margin-bottom: 30px;
+}
+
+/* Skills section styles */
+.skills-section {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+.skills-content {
+    padding: 100px 0;
+}
+
+.skills-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-icon {
+    width: 130px;
+    /* Adjust icon size as needed */
+    height: auto;
+}
+
+
+/* Projects section styles */
+.projects-section {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.projects-content {
+    padding: 50px 0;
+}
+
+.projects-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the start of the flex container */
+    margin-bottom: 40px;
+}
+
+.project-details {
+    flex: 1;
+    /* Take up remaining space */
+    margin-left: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contact section styles */
+.contact-section {
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.contact-content {
+    padding: 100px 0;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #00bcd4;
+}
+
+/* Footer section styles */
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-social {
+    font-size: 24px;
+}
+
+.social-link {
+    color: #929191;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #00bcd4;
+}
+
+/* Add more styling as needed */
